@@ -8,9 +8,6 @@ these resources to be included on a page::
   >>> from js.ace import ace
   >>> ace.need()
 
-  >>> from js.ace import cockpit
-  >>> cockpit.need()
-
   >>> from js.ace import keybinding_emacs
   >>> keybinding_emacs.need()
 

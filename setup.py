@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.2.0'
+version = '1.0.0dev'
 
 def read(*rnames):
     return open(os.path.join(os.path.dirname(__file__), *rnames)).read()
@@ -26,7 +26,6 @@ setup(
     packages=find_packages(),namespace_packages=['js'],
     include_package_data=True,
     zip_safe=False,
-    setup_requires=['hgtools'],
     install_requires=[
         'fanstatic',
         'setuptools',
